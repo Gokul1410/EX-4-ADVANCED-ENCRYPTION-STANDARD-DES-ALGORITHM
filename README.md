@@ -26,7 +26,7 @@ void xor_encrypt_decrypt(char *input, char *key) {
 }
 
 int main() {
-    char url[] = "https://www.google.com/";
+    char url[] = "Gokul";
     char key[] = "secretkey"; // Simple key for XOR encryption
 
     printf("Original URL: %s\n", url);
@@ -43,7 +43,8 @@ int main() {
 }
 ```
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/676fa017-0a3f-4621-8d72-d9ef299d5d67)
+![Screenshot 2024-10-07 045358](https://github.com/user-attachments/assets/44e1eea2-02f1-403c-9440-eefefa731a45)
+
 
 ## RESULT: 
 Thus , to use Advanced Encryption Standard (AES) Algorithm for a practical application like URL Encryption is done successfully.
