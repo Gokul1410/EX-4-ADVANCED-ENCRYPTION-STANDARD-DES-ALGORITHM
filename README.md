@@ -1,4 +1,4 @@
-# EX-4-ADVANCED-ENCRYPTION-STANDARD-DES-ALGORITHM
+# EX-7-ADVANCED-ENCRYPTION-STANDARD-DES-ALGORITHM
 
 ## Aim:
 
@@ -26,9 +26,10 @@ void xor_encrypt_decrypt(char *input, char *key) {
 }
 
 int main() {
+    char hex[] = "DES";
     char url[] = "Gokul";
     char key[] = "secretkey"; // Simple key for XOR encryption
-
+    printf("DES Encryption and Decryption\n\n",hex);
     printf("Original URL: %s\n", url);
 
     // Encrypt the URL
@@ -43,7 +44,9 @@ int main() {
 }
 ```
 ## OUTPUT:
-![Screenshot 2024-10-07 045358](https://github.com/user-attachments/assets/44e1eea2-02f1-403c-9440-eefefa731a45)
+
+![Screenshot 2024-10-07 051838](https://github.com/user-attachments/assets/63b2cd41-7e7b-4480-a7f5-4bbf87fcd938)
+
 
 
 ## RESULT: 
